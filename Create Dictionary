@@ -1,0 +1,12 @@
+n=eval(input("Enter number of key-value pair"))
+d={}          #Declare empty dictionary
+
+i=1
+while i<=n:
+    key=eval(input("Enter key"))
+    value=eval(input("Enter value"))
+
+    d[key]=value
+    i=i+1
+
+print(d) 
